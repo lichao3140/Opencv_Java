@@ -21,7 +21,7 @@ public class OpenCV_2_Mat {
 		Imgcodecs.imwrite(".\\screenshot\\mat.jpg", src);*/
 		
 		//类型与大小读取
-		Mat src = Imgcodecs.imread(".\\img\\lena.png", Imgcodecs.CV_LOAD_IMAGE_GRAYSCALE);
+		Mat src = Imgcodecs.imread(".\\img\\lena.png", Imgcodecs.CV_LOAD_IMAGE_COLOR);
 		int type = src.type();
 		int width = src.cols();
 		int heigth = src.rows();
@@ -43,5 +43,66 @@ public class OpenCV_2_Mat {
 		//Mat类型转换  变换成浮点数图像
 		Mat dst = new Mat(src.size(), CvType.CV_32FC1);
 		src.convertTo(dst, CvType.CV_32F);
+		
+		//读取与修改每个像素值: 1、一次一个一个像素取  2、一次全部取出来
+		/*byte[] onepixel = new byte[channels];//一次一个一个像素取,很耗时
+		int r = 0, g = 0, b = 0;
+		int gray = 0;
+		for (int row = 0; row < heigth; row++) {
+			for (int col = 0; col < width; col++) {
+				src.get(row, col, onepixel);
+				if (channels == 3) {//3通道
+					b = onepixel[0]&0xff;
+					g = onepixel[1]&0xff;
+					r = onepixel[2]&0xff;
+					
+					//修改
+					b = 255 - b;
+					g = 255 - g;
+					r = 255 - r;
+					//修改后，放进去
+					onepixel[0] = (byte)b;
+					onepixel[1] = (byte)g;
+					onepixel[2] = (byte)r;
+				} else {//单通道
+					gray = onepixel[0]&0xff;
+					gray = 255 - gray;
+					onepixel[0] = (byte)gray;
+				}
+				src.put(row, col, onepixel);
+			}
+		}*/
+		
+		byte[] data = new byte[channels * width * heigth];//一次全部取出来
+		src.get(0, 0, data);
+		int r = 0, g = 0, b = 0;
+		int gray = 0;
+		for (int row = 0; row < heigth; row++) {
+			for (int col = 0; col < width; col++) {
+				if (channels == 3) {
+					b = data[row * channels * width + col * channels]&0xff;
+					g = data[row * channels * width + col * channels + 1]&0xff;
+					r = data[row * channels * width + col * channels + 2]&0xff;
+					
+					b = 255 - b;
+					g = 255 - g;
+					r = 255 - r;
+					
+					data[row * channels * width + col * channels] = (byte)b;
+					data[row * channels * width + col * channels + 1] = (byte)g;
+					data[row * channels * width + col * channels + 2] = (byte)r;
+				} else {
+					gray = data[row * channels * width + col * channels]&0xff;
+					gray = 255 - gray;
+					data[row * channels * width + col * channels] = (byte)gray;
+				}
+			} 
+			
+		}
+		src.put(0, 0, data);
+		Imgcodecs.imwrite(".\\screenshot\\changPixel.png", src);
+		//释放内存  防止OOM
+		src.release();
+		dst.release();
 	}
 }
