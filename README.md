@@ -5,3 +5,7 @@
 ### 二、知识点目录
 1、OpenCV_1_Read 使用OpenCV图像读取与保存<br>
 2、OpenCV_2_Mat  Mat的初始化、读取、转换、遍历<br>
+3、OpenCV_2_MatShow  Mat对象显示到BufferedImage<br>
+
+---
+![](/screenshot/changPixel.png "2-像素修改")
