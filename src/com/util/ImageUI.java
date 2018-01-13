@@ -65,7 +65,7 @@ public class ImageUI extends JComponent {
 		int width = src.cols();
 		int height = src.rows();
 		int dims = src.channels();
-		byte[] data = new byte[width * height * dims];
+		byte[] data = new byte[width * height * dims];//´æ´¢Í¼ÏñËùÓĞÏñËØµã
 		src.get(0, 0, data);
 		int[] pixels = new int[width * height];
 		
@@ -76,13 +76,13 @@ public class ImageUI extends JComponent {
 			for (int col = 0; col < width; col++) {
 				index = row * width * dims + col * dims;
 				if (dims == 3) {
-					b = data[index]&0xff;
-					g = data[index + 1]&0xff;
-					r = data[index + 2]&0xff;
+					b = data[index] & 0xff;
+					g = data[index + 1] & 0xff;
+					r = data[index + 2] & 0xff;
 					
 					pixels[row * width + col] = ((255&0xff) << 24) | ((r&0xff) << 16) | ((g&0xff) << 8) | (b&0xff);
 				} else if (dims == 1){
-					b = data[index]&0xff;
+					b = data[index] & 0xff;
 					pixels[row * width + col] = ((255&0xff) << 24) | ((r&0xff) << 16) | ((g&0xff) << 8) | (b&0xff);
 				}
 			}
