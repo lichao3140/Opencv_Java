@@ -12,7 +12,7 @@ import org.opencv.imgproc.Imgproc;
  * <p>Title: OpenCV_1_Read </p>
  * <p>Description: 图像读取与保存</p>
  * <p>Company: </p>
- * @author dell
+ * @author LICHAO
  * @date 2018-1-10 下午7:10:14
  */
 public class OpenCV_1_Read {
