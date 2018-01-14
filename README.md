@@ -7,8 +7,11 @@
 2、OpenCV_2_Mat  Mat的初始化、读取、转换、遍历<br>
 3、OpenCV_3_MatShow  Mat对象显示到BufferedImage<br>
 4、OpenCV_4_ColorSpace  RGB色彩空间
+5、OpenCV_5_MatMath  MAT像素算术运算和逻辑
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
 ![](/screenshot/Mat_GUI.jpg "3-GUI显示")
 ![](/screenshot/Mat_HSV.jpg "4-HSV色彩空间")
+![](/screenshot/Mat_bitwise_add.jpg "5-图像像素或操作")
+![](/screenshot/Mat_bitwise_not.jpg "5-图像像素非操作")
