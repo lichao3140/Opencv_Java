@@ -11,7 +11,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_3_MatShow</p>
  * <p>Description: Mat图像显示到界面</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月13日 下午9:53:26
  */
 public class OpenCV_3_MatShow {

@@ -16,7 +16,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_6_FloodFill</p>
  * <p>Description: ROI区域与泛洪填充</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月14日 下午9:19:03
  */
 public class OpenCV_6_FloodFill {

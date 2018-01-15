@@ -18,7 +18,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_4_ColorSpace</p>
  * <p>Description: RGB色彩空间</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月13日 下午10:14:57
  */
 public class OpenCV_4_ColorSpace {

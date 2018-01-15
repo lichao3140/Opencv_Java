@@ -14,7 +14,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_5_MatMath</p>
  * <p>Description: MAT像素算术运算和逻辑</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月14日 下午8:21:57
  */
 public class OpenCV_5_MatMath {
