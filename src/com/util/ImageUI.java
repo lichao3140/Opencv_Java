@@ -53,7 +53,7 @@ public class ImageUI extends JComponent {
 		//设置布局居中方式
 		ui.getContentPane().add(this, BorderLayout.CENTER);
 		//设置宽高
-		ui.setSize(image.getWidth() + 2, image.getHeight() + 2);
+		ui.setSize(image.getWidth() + 16, image.getHeight() + 38);
 		//设置可见
 		ui.setVisible(true);
 		//刷新
