@@ -11,6 +11,7 @@
 6、OpenCV_6_FloodFill  ROI---Region of Interest区域与泛洪填充<br>
 7、OpenCV_7_Convlution  均值模糊<br>
 8、OpenCV_8_Gaussian  高斯模糊<br>
+9、OpenCV_9_EPF  边缘保留滤波EPF<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -21,3 +22,4 @@
 ![](/screenshot/Mat_FloodFill.jpg "6-泛洪填充")
 ![](/screenshot/Mat_Convlution.png "7-图像模糊美颜去噪")
 ![](/screenshot/Mat_Gaussian.jpg "8-高斯模糊")
+![](/screenshot/Mat_BilateralFilter.jpg "9-双边模糊")
