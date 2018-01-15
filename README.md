@@ -17,6 +17,7 @@
 12、OpenCV_12_HistogramCompare  直方图的比较<br>
 13、OpenCV_13_HistogramHistBack  直方图反向投影<br>
 14、OpenCV_14_TemplateMatch  模板匹配<br>
+15、OpenCV_15_BinaryImage  图像二值化<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -32,3 +33,4 @@
 ![](/screenshot/Mat_equalizeHist.png "11-彩色图直方图均衡化")
 ![](/screenshot/Mat_CalcBackProject.jpg "13-直方图反向投影")
 ![](/screenshot/Mat_TemplateMatch.jpg "14-模板匹配")
+![](/screenshot/Mat_Binary.jpg "15-图像二值化")
