@@ -13,6 +13,7 @@
 8、OpenCV_8_Gaussian  高斯模糊<br>
 9、OpenCV_9_EPF  边缘保留滤波EPF<br>
 10、OpenCV_10_Histogram  绘制图像直方图<br>
+11、OpenCV_11_HistogramHist  直方图均衡化<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -25,3 +26,4 @@
 ![](/screenshot/Mat_Gaussian.jpg "8-高斯模糊")
 ![](/screenshot/Mat_BilateralFilter.jpg "9-双边模糊")
 ![](/screenshot/Mat_Histogram.jpg "10-直方图绘制")
+![](/screenshot/Mat_equalizeHist.png "11-彩色图直方图均衡化")

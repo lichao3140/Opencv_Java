@@ -7,7 +7,6 @@ import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import javax.swing.JComponent;
 import javax.swing.JDialog;
-
 import org.opencv.core.Mat;
 
 /**
@@ -83,7 +82,7 @@ public class ImageUI extends JComponent {
 					pixels[row * width + col] = ((255&0xff) << 24) | ((r&0xff) << 16) | ((g&0xff) << 8) | (b&0xff);
 				} else if (dims == 1){
 					b = data[index] & 0xff;
-					pixels[row * width + col] = ((255&0xff) << 24) | ((r&0xff) << 16) | ((g&0xff) << 8) | (b&0xff);
+					pixels[row * width + col] = ((255&0xff) << 24) | ((b&0xff) << 16) | ((b&0xff) << 8) | (b&0xff);
 				}
 			}
 		}
