@@ -8,7 +8,6 @@ import org.opencv.core.MatOfFloat;
 import org.opencv.core.MatOfInt;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
-
 import com.util.ImageUI;
 
 /**
@@ -16,7 +15,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_13_HistogramHistBack</p>
  * <p>Description: 直方图反向投影</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月15日 下午5:10:48
  */
 public class OpenCV_13_HistogramHistBack {

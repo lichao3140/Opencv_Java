@@ -16,6 +16,7 @@
 11、OpenCV_11_HistogramHist  直方图均衡化<br>
 12、OpenCV_12_HistogramCompare  直方图的比较<br>
 13、OpenCV_13_HistogramHistBack  直方图反向投影<br>
+14、OpenCV_14_TemplateMatch  模板匹配<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -30,4 +31,4 @@
 ![](/screenshot/Mat_Histogram.jpg "10-直方图绘制")
 ![](/screenshot/Mat_equalizeHist.png "11-彩色图直方图均衡化")
 ![](/screenshot/Mat_CalcBackProject.jpg "13-直方图反向投影")
-
+![](/screenshot/Mat_TemplateMatch.jpg "14-模板匹配")
