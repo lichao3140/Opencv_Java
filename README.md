@@ -18,7 +18,7 @@
 13、OpenCV_13_HistogramHistBack  直方图反向投影<br>
 14、OpenCV_14_TemplateMatch  模板匹配<br>
 15、OpenCV_15_BinaryImage  图像二值化<br>
-
+16、OpenCV_16_BinaryAdapt  自适应阈值二值化<br>
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
 ![](/screenshot/Mat_GUI.jpg "3-GUI显示")
@@ -34,3 +34,4 @@
 ![](/screenshot/Mat_CalcBackProject.jpg "13-直方图反向投影")
 ![](/screenshot/Mat_TemplateMatch.jpg "14-模板匹配")
 ![](/screenshot/Mat_Binary.jpg "15-图像二值化")
+![](/screenshot/Mat_BinaryAdapt.jpg "16-自适应阈值二值化")

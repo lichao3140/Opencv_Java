@@ -36,6 +36,6 @@ public class OpenCV_15_BinaryImage {
 		Mat dst = new Mat();
 		Imgproc.threshold(gray, dst, 127, 255, Imgproc.THRESH_BINARY | Imgproc.THRESH_OTSU);
 		ImageUI out = new ImageUI();
-		out.imshow("OpenCV_Binary_Input", dst);
+		out.imshow("OpenCV_Binary_Output", dst);
 	}
 }
