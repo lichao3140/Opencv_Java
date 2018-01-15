@@ -15,4 +15,4 @@
 ![](/screenshot/Mat_GUI.jpg "3-GUI显示")
 ![](/screenshot/Mat_HSV.jpg "4-HSV色彩空间")
 ![](/screenshot/Mat_bitwise_add.jpg "5-图像像素或操作")
-![](/screenshot/Mat_bitwise_not.jpg "5-图像像素非操作")
+![](/screenshot/Mat_FloodFill.jpg "6-泛洪填充")
