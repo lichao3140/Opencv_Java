@@ -14,6 +14,7 @@
 9、OpenCV_9_EPF  边缘保留滤波EPF<br>
 10、OpenCV_10_Histogram  绘制图像直方图<br>
 11、OpenCV_11_HistogramHist  直方图均衡化<br>
+12、OpenCV_12_HistogramCompare  直方图的比较<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
