@@ -12,6 +12,7 @@
 7、OpenCV_7_Convlution  均值模糊<br>
 8、OpenCV_8_Gaussian  高斯模糊<br>
 9、OpenCV_9_EPF  边缘保留滤波EPF<br>
+10、OpenCV_10_Histogram  绘制图像直方图<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -23,3 +24,4 @@
 ![](/screenshot/Mat_Convlution.png "7-图像模糊美颜去噪")
 ![](/screenshot/Mat_Gaussian.jpg "8-高斯模糊")
 ![](/screenshot/Mat_BilateralFilter.jpg "9-双边模糊")
+![](/screenshot/Mat_Histogram.jpg "10-直方图绘制")

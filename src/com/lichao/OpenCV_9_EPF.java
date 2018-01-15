@@ -12,7 +12,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_9_EPF</p>
  * <p>Description: 边缘保留滤波EPF</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月15日 上午11:30:50
  */
 public class OpenCV_9_EPF {
