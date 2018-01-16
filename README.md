@@ -26,6 +26,7 @@
 20. OpenCV_20_MScaleTemplateMatch  多尺度模板匹配<br>
 21. OpenCV_21_GradientSobel  图像梯度一阶倒数(索贝尔算子)<br>
 22. OpenCV_22_GradientLapalian  图像梯度二阶倒数(拉普拉斯算子)<br>
+23. OpenCV_23_Canny  Canny边缘提取<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -50,3 +51,4 @@
 ![](/screenshot/Mat_MScaleTemplateMatch.jpg "20-多尺度模板匹配")
 ![](/screenshot/Mat_Gradient.jpg "21-图像梯度一阶倒数")
 ![](/screenshot/Mat_GradientLapalian.jpg "22-图像梯度二阶倒数")
+![](/screenshot/Mat_Canny.jpg "23-Canny边缘提取")
