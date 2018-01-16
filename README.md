@@ -20,6 +20,7 @@
 15、OpenCV_15_BinaryImage  图像二值化<br>
 16、OpenCV_16_BinaryAdapt  自适应阈值二值化<br>
 17、OpenCV_17_BinaryBigImage  超大图像二值化<br>
+18、OpenCV_18_Pyramid  图像金字塔<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -39,3 +40,4 @@
 ![](/screenshot/Mat_BinaryAdapt.jpg "16-自适应阈值二值化")
 ![](/screenshot/BinaryBigImage_resut.png "17-超大图二值化-分块")
 ![](/screenshot/BinaryBigImage1_resut.png "17-超大图二值化-结果")
+![](/screenshot/Mat_Pyramid.jpg "18-拉普拉斯金字塔和高斯金字塔")
