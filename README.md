@@ -30,6 +30,7 @@
 24. OpenCV_24_HoughLine  直线检测---霍夫直线变换<br>
 25. OpenCV_25_HoughCircle  圆检测<br>
 26. OpenCV_26_FindContours  轮廓发现<br>
+27. OpenCV_27_ContoursMeasure  图象测量<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -59,3 +60,6 @@
 ![](/screenshot/Mat_HoughCircle.jpg "25-霍夫圆检测")
 ![](/screenshot/Mat_FindContours_One.jpg "26-轮廓发现-第一种方法")
 ![](/screenshot/Mat_FindContours.jpg "26-轮廓发现-两种方法对比")
+![](/screenshot/Mat_Arc_Area_1.jpg "27-图像周长、面积、垂心")
+![](/screenshot/Mat_Arc_Area_2.jpg "27-图像周长、面积、垂心、拟合")
+
