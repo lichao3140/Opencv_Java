@@ -2,16 +2,13 @@ package com.lichao;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.opencv.core.Core;
 import org.opencv.core.Mat;
-import org.opencv.core.MatOfInt;
 import org.opencv.core.MatOfPoint;
 import org.opencv.core.Point;
 import org.opencv.core.Scalar;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
-
 import com.util.ImageUI;
 
 /**

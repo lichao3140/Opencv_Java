@@ -31,6 +31,8 @@
 25. OpenCV_25_HoughCircle  圆检测<br>
 26. OpenCV_26_FindContours  轮廓发现<br>
 27. OpenCV_27_ContoursMeasure  图象测量<br>
+28. OpenCV_28_DilateErode  图象形态学---腐蚀与膨胀<br>
+29. OpenCV_29_OpenClose  图象形态学---开闭操作<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -62,4 +64,7 @@
 ![](/screenshot/Mat_FindContours.jpg "26-轮廓发现-两种方法对比")
 ![](/screenshot/Mat_Arc_Area_1.jpg "27-图像周长、面积、垂心")
 ![](/screenshot/Mat_Arc_Area_2.jpg "27-图像周长、面积、垂心、拟合")
-
+![](/screenshot/Mat_Open.jpg "28-开操作-消除小的干扰块")
+![](/screenshot/Mat_Close.jpg "28-闭操作-填充小的洞")
+![](/screenshot/Mat_DetectLine.jpg "28-线段提取")
+![](/screenshot/Mat_RemoveLines.jpg "28-去干扰线条")
