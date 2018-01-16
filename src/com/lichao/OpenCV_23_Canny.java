@@ -6,7 +6,6 @@ import org.opencv.core.Mat;
 import org.opencv.core.Size;
 import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
-
 import com.util.ImageUI;
 
 /**
@@ -14,7 +13,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_23_Canny</p>
  * <p>Description:Canny边缘提取</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月16日 下午3:58:14
  */
 public class OpenCV_23_Canny {
