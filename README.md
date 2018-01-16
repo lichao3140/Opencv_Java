@@ -49,4 +49,4 @@
 ![](/screenshot/Mat_PyramidBlend.jpg "19-图像金字塔融合")
 ![](/screenshot/Mat_MScaleTemplateMatch.jpg "20-多尺度模板匹配")
 ![](/screenshot/Mat_Gradient.jpg "21-图像梯度一阶倒数")
-![](/screenshot/Mat_Gradient.jpg "22-图像梯度二阶倒数")
+![](/screenshot/Mat_GradientLapalian.jpg "22-图像梯度二阶倒数")
