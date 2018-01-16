@@ -29,6 +29,7 @@
 23. OpenCV_23_Canny  Canny边缘提取<br>
 24. OpenCV_24_HoughLine  直线检测---霍夫直线变换<br>
 25. OpenCV_25_HoughCircle  圆检测<br>
+26. OpenCV_26_FindContours  轮廓发现<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -56,3 +57,5 @@
 ![](/screenshot/Mat_Canny.jpg "23-Canny边缘提取")
 ![](/screenshot/Mat_HoughLine.jpg "24-霍夫直线检测")
 ![](/screenshot/Mat_HoughCircle.jpg "25-霍夫圆检测")
+![](/screenshot/Mat_FindContours_One.jpg "26-轮廓发现-第一种方法")
+![](/screenshot/Mat_FindContours.jpg "26-轮廓发现-两种方法对比")

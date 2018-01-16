@@ -15,7 +15,7 @@ import com.util.ImageUI;
  * <p>Title: OpenCV_25_HoughCircle</p>
  * <p>Description: 圆检测</p>
  * <p>Company:</p>
- * @author Administrator
+ * @author LICHAO
  * @date 2018年1月16日 下午5:12:03
  */
 public class OpenCV_25_HoughCircle {
