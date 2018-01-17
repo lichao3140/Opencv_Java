@@ -33,7 +33,8 @@
 27. OpenCV_27_ContoursMeasure  图象测量<br>
 28. OpenCV_28_DilateErode  图象形态学---腐蚀与膨胀<br>
 29. OpenCV_29_OpenClose  图象形态学---开闭操作<br>
-23. OpenCV_30_MorePH  其他形态学操作：顶帽、黑帽、基本梯度、内部梯度、外部梯度<br>
+30. OpenCV_30_MorePH  其他形态学操作：顶帽、黑帽、基本梯度、内部梯度、外部梯度<br>
+31. OpenCV_31_WaterShed  分水岭算法<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -70,3 +71,4 @@
 ![](/screenshot/Mat_DetectLine.jpg "29-线段提取")
 ![](/screenshot/Mat_RemoveLines.jpg "29-去干扰线条")
 ![](/screenshot/Mat_MorePH.jpg "30-形态学的梯度")
+![](/screenshot/Mat_WaterShed.jpg "31-分水岭算法")
