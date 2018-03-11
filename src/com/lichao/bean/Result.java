@@ -170,5 +170,4 @@ public class Result {
      public Qualities getQualities() {
          return qualities;
      }
-
 }

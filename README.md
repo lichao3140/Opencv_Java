@@ -36,6 +36,7 @@
 30. OpenCV_30_MorePH  其他形态学操作：顶帽、黑帽、基本梯度、内部梯度、外部梯度<br>
 31. OpenCV_31_WaterShed  分水岭算法<br>
 32. OpenCV_32_FaceDetect  人脸检测<br>
+33. OpenCV_33_FaceSwap  人脸互换<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
@@ -74,3 +75,5 @@
 ![](/screenshot/Mat_MorePH.jpg "30-形态学的梯度")
 ![](/screenshot/Mat_WaterShed.jpg "31-分水岭算法")
 ![](/screenshot/Mat_FaceDetect.jpg "32-人脸检测")
+![](/screenshot/faceswap.png "33-人脸互换")
+![](/screenshot/faceswap1.png "33-人脸互换")

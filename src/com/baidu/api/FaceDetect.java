@@ -18,7 +18,8 @@ import com.util.HttpUtil;
  */
 public class FaceDetect {
 	
-    public static String detect(String filePath) {
+    public static Point[] detect(String filePath) {
+    	Point[] points;
         // «Î«Ûurl
         String url = "https://aip.baidubce.com/rest/2.0/face/v1/detect";
         try {
@@ -35,16 +36,23 @@ public class FaceDetect {
             //GSONΩ‚ŒˆJSON
             Gson gson = new Gson();
             JsonRootBean jsonRootBean = gson.fromJson(result, JsonRootBean.class);
-            
-           
-            return result;
+            int k72 = jsonRootBean.getResult().get(0).getLandmark72().size();
+            points = new Point[k72];
+            for(int i = 0; i < k72; i ++) {
+//            	System.out.print("X" + i + ":" + jsonRootBean.getResult().get(0).getLandmark72().get(i).getX() + "\t");
+//            	System.out.println("Y" + i + ":" + jsonRootBean.getResult().get(0).getLandmark72().get(i).getY());
+            	double x = (double) jsonRootBean.getResult().get(0).getLandmark72().get(i).getX();
+            	double y = (double) jsonRootBean.getResult().get(0).getLandmark72().get(i).getY();
+            	points[i] = new Point(x, y);
+            }
+            return points;
         } catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
     
-    public static void main(String[] args) {
-    	FaceDetect.detect(".\\img\\tangwei.png");
-	}
+//    public static void main(String[] args) {
+//    	FaceDetect.detect(".\\img\\tangwei.png");
+//	}
 }

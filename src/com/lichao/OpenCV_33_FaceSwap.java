@@ -18,6 +18,7 @@ import org.opencv.imgproc.Subdiv2D;
 import org.opencv.photo.Photo;
 import com.baidu.api.FaceDetect;
 import com.util.Correspondens;
+import com.util.ImageUI;
 
 /**
  * 
@@ -32,8 +33,8 @@ public class OpenCV_33_FaceSwap {
 	public static void main(String[] args) {
 		System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
 		// 两张图片地址
-		String path1 = ".\\img\\luhan.png";
-		String path2 = ".\\img\\tangwei.png";
+		String path1 = ".\\img\\Trump.png";
+		String path2 = ".\\img\\Hillary.png";
 		
 		// load the two images.
 		Mat imgCV1 = Imgcodecs.imread(path1);
@@ -42,6 +43,10 @@ public class OpenCV_33_FaceSwap {
 			System.out.println("There is wrong with images");
 			return;
 		}
+		ImageUI ui1 = new ImageUI();
+		ImageUI ui2 = new ImageUI();
+		ui1.imshow("原始图像1", imgCV1);
+		ui2.imshow("原始图像2", imgCV2);
 		System.out.println("image readed by opencv");
 		
 		// 人脸识别出的关键点		
@@ -98,6 +103,8 @@ public class OpenCV_33_FaceSwap {
 		imgCV1Warped.convertTo(imgCV1Warped, CvType.CV_8UC3);
 		Photo.seamlessClone(imgCV1Warped, imgCV2, mask, center, output, Photo.NORMAL_CLONE);
 		
+		ImageUI out = new ImageUI();
+		out.imshow("换脸合成结果", output);
 		
 		String filename = "output.jpg";
 		Imgcodecs.imwrite(filename, output);
