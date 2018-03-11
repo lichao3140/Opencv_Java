@@ -75,5 +75,5 @@
 ![](/screenshot/Mat_MorePH.jpg "30-形态学的梯度")
 ![](/screenshot/Mat_WaterShed.jpg "31-分水岭算法")
 ![](/screenshot/Mat_FaceDetect.jpg "32-人脸检测")
-![](/screenshot/faceswap.png "33-人脸互换")
-![](/screenshot/faceswap1.png "33-人脸互换")
+![](/screenshot/Mat_faceswap.png "33-人脸互换")
+![](/screenshot/Mat_faceswap1.png "33-人脸互换")
