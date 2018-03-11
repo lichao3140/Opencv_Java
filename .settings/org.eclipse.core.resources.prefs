@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/baidu/api/AuthService.java=UTF-8
+encoding//src/com/util/Base64Util.java=UTF-8
+encoding//src/com/util/FileUtil.java=UTF-8
+encoding//src/com/util/GsonUtils.java=UTF-8
+encoding//src/com/util/HttpUtil.java=UTF-8

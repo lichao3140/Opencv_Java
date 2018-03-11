@@ -16,7 +16,7 @@ import org.opencv.imgcodecs.Imgcodecs;
 import org.opencv.imgproc.Imgproc;
 import org.opencv.imgproc.Subdiv2D;
 import org.opencv.photo.Photo;
-import com.baiduapi.FaceDetect;
+import com.baidu.api.FaceDetect;
 import com.util.Correspondens;
 
 /**
