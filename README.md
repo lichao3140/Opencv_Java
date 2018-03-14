@@ -37,6 +37,7 @@
 31. OpenCV_31_WaterShed  分水岭算法<br>
 32. OpenCV_32_FaceDetect  人脸检测<br>
 33. OpenCV_33_FaceSwap  人脸互换<br>
+34. OpenCV_34_Skeleton  骨架提取<br>
 
 ---
 ![](/screenshot/changPixel.png "2-像素修改")
